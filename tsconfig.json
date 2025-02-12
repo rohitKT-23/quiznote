@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.js", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/generate/route.js", "src/app/layout.js", "src/app/not-found.js", "src/app/page.js", "src/assets/data/navlinks.js", "src/assets/data/socialLinks.js", "src/assets/font/index.js", "src/components/global/BugReport.js", "src/components/global/Footer.js", "src/components/global/Hamburger.js", "src/components/global/MobileMenu.js", "src/components/global/Navbar.js", "src/components/icons/Gemini.js", "src/components/icons/index.js", "src/components/pages/FileNote.js", "src/components/pages/Form.js", "src/components/pages/FormContainer.js", "src/components/pages/FormField.js", "src/components/pages/Quiz.js", "src/components/pages/QuizContainer.js", "src/components/pages/Summary.js", "src/components/pages/TextNote.js", "src/components/shared/Button.js", "src/components/shared/Container.js", "src/components/shared/CountdownTimer.js", "src/components/shared/GeminiBadge.js", "src/components/shared/Header.js", "src/components/shared/Loading.js", "src/components/shared/ProgressBar.js", "src/components/shared/Social.js", "src/components/shared/TabComponent.js", "src/store/form.js", "src/store/quiz.js", "src/store/timer.js", "types/index.js", "tailwind.config.js"],
   "exclude": ["node_modules"]
 }
